@@ -22,13 +22,14 @@
 			<!--<h3>Introduction</h3>-->
 			<p>{{vm.businessDesc}}</p>
 		<div class="list card">
+		<!--
 			<a class="item item-icon-left" ng-click="vm.showContactUs()">
 				<i class="icon ion-ios-time-outline"></i>
 				It's {{::vm.currentDateTime}} and we are
 				<span ng-if="vm.business.isBusinessOpen" class="balanced">Open</span>
 				<span ng-if="!vm.business.isBusinessOpen" class="assertive">Closed</span>
 			</a>
-
+		-->
 			<a class="item item-icon-left" ng-click="vm.getDirections()">
 				<i class="icon ion-navigate"></i>
 				<span>You are <span ng-if="!!vm.business.distance">{{vm.business.distance}}</span> away. Get directions</span>
